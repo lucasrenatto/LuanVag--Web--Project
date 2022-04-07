@@ -1,0 +1,45 @@
+<mat-form-field class="lote" appearance="fill" id="loteinput">
+    <mat-label>Selecione o Usuário</mat-label>
+    <mat-select>
+      <mat-option value="option">Maria</mat-option>
+      <mat-option value="option">Ana</mat-option>
+      <mat-option value="option">Leticia</mat-option>
+      <mat-option value="option">Fabiola</mat-option>
+      <mat-option value="option">João</mat-option>
+    </mat-select>
+</mat-form-field>
+
+
+<mat-form-field class="user" appearance="fill" id="userinput">
+    <mat-label>Selecione o Lote</mat-label>
+    <mat-select>
+      <mat-option value="option">1546541</mat-option>
+      <mat-option value="option">8787984</mat-option>
+      <mat-option value="option">4591561</mat-option>
+      <mat-option value="option">4656484</mat-option>
+      <mat-option value="option">9849849</mat-option>
+    </mat-select>
+</mat-form-field>
+
+     
+    <p>Valor Total: <strong>R$500,00</strong></p>
+    
+    <div class="botoes">
+    <button class="salvar" mat-stroked-button color="primary">
+        Salvar 
+        <i class="material-icons"> check_circle</i>
+    </button>
+
+   
+    <button type="reset"class="limpar" mat-stroked-button color="primary">
+        Limpar Campos
+        <i class="material-icons"> cancel</i>
+    </button>
+
+
+
+    <button class="cancelar" mat-stroked-button color="primary" (click)="cancelar()">
+        Cancelar
+        <i class="material-icons"> cancel</i>
+    </button>
+</div>

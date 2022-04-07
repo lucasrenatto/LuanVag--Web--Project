@@ -1,0 +1,60 @@
+.side-nav{
+    background-color: rgb(53, 53, 53);
+    border: 2px solid rgba(255, 255 , 255, 0.2);
+}
+
+.side-nav i{
+    padding-right:10px ;
+}
+
+.content {
+    padding: 16px;
+    background-color:rgb(32, 32, 32);
+}
+
+a{
+    border-bottom: 1px thin rgba(255, 255, 255, 0.3);
+    box-shadow: 1px 1px black;
+}
+
+.users:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.lbt:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.pa:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.lotes:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.medica:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.vendaa:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}
+
+.inicio:hover {
+    background-color:rgb(51, 19, 167) ;
+    transition: 0.8s;
+
+}

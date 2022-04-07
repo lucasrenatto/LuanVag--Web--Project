@@ -1,0 +1,17 @@
+
+
+.pedido .title{
+    text-align: center;
+}
+
+.options .novo{
+    background-color: green;
+    color: aliceblue;
+    display: block;
+    margin-top: 10px;
+    
+}
+.options{
+    display: block;
+    
+}

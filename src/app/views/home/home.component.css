@@ -1,0 +1,17 @@
+.home .title{
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+}
+
+.home .subtitle{
+    font-size: 1.1rem;
+}
+
+.img-home{
+    height: 80%;
+    width: 50%;
+    display: inline-block;
+}

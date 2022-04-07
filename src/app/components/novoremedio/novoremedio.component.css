@@ -1,0 +1,52 @@
+.container {
+    color:white;
+    font-size: 18px;
+
+}
+
+.teste{
+    display: block;
+}
+
+.lab    {
+    display: block;
+}
+
+
+.lote{
+    display: block;
+}
+
+.user{
+    display: block;
+}
+.container strong{
+    color: rgb(11, 156, 11);
+    font-size: 18px;
+    text-decoration: solid;
+    border: 2px solid;
+
+}
+
+.botoes{
+    text-align: center;
+}
+
+
+.salvar{
+    color: white;
+    background-color:rgb(11, 156, 11);
+
+}
+
+.limpar{
+    color: white;
+    background-color:rgb(194, 243, 16);
+    margin-left: 10px;
+}
+
+.cancelar{
+    color: white;
+    background-color:rgb(202, 5, 5);
+    margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+    <mat-form-field class="teste" appearance="fill">
+      <mat-label>Nome do Remédio</mat-label>
+      <input matInput placeholder="Ex. Paracetamol">
+    </mat-form-field>
+
+    <mat-form-field class="teste" appearance="fill">
+        <mat-label>Preço Unitário</mat-label>
+        <input oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"  matInput placeholder="Ex R$80,00">
+      </mat-form-field>
+  
+
+
+<mat-form-field class="lote" appearance="fill" id="loteinput">
+    <mat-label>Selecione o Principio Ativo</mat-label>
+    <mat-select>
+      <mat-option value="option">H2o</mat-option>
+      <mat-option value="option">Testosterona</mat-option>
+      <mat-option value="option">DH</mat-option>
+      <mat-option value="option">T21</mat-option>
+      <mat-option value="option">Abacaxi</mat-option>
+    </mat-select>
+</mat-form-field>
+
+
+<mat-form-field class="lab" appearance="fill" id="userinput">
+    <mat-label>Selecione o Laboratório</mat-label>
+    <mat-select>
+      <mat-option value="option">Clinica A</mat-option>
+      <mat-option value="option">Clinica B</mat-option>
+      <mat-option value="option">Clinica C</mat-option>
+      <mat-option value="option">Clinica D</mat-option>
+      <mat-option value="option">Clinica E</mat-option>
+    </mat-select>
+</mat-form-field>
+
+     
+
+    
+    <div class="botoes">
+    <button class="salvar" mat-stroked-button color="primary">
+        Salvar 
+        <i class="material-icons"> check_circle</i>
+    </button>
+
+   
+    <button type="reset"class="limpar" mat-stroked-button color="primary">
+        Limpar Campos
+        <i class="material-icons"> cancel</i>
+    </button>
+
+
+
+    <button class="cancelar" mat-stroked-button color="primary" (click)="cancelar()">
+        Cancelar
+        <i class="material-icons"> cancel</i>
+    </button>
+</div>
